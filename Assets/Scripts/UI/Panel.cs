@@ -1,15 +1,31 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using Transform = UnityEngine.Transform;
 
-public class Panel : MonoBehaviour
+namespace UI
 {
-    [SerializeField] protected internal UnityEvent onTriggerEnter = new UnityEvent();
-    
-    private void OnTriggerEnter(Collider other)
+    public class Panel : MonoBehaviour
     {
-        onTriggerEnter.Invoke();
+        [SerializeField] private GameObject _luzes;
+        [SerializeField] protected internal UnityEvent onTriggerEnter = new UnityEvent();
+
+        private void AcenderLuzes()
+        {
+            if (_luzes == null) return;
+            foreach (Transform child in _luzes.transform)
+            {
+                var component = child.GetComponent<Renderer>();
+
+                if (component == null) continue;
+                var material = component.material;
+                material.EnableKeyword("_EMISSION");
+            }
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            AcenderLuzes();
+            onTriggerEnter.Invoke();
+        }
     }
 }
