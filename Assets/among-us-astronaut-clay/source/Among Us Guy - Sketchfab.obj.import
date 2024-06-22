@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2c4gnelapl6m"
+path="res://.godot/imported/Among Us Guy - Sketchfab.obj-d1ae88d503e66e3987e6135b815b19b3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Among Us Guy - Sketchfab.obj-d1ae88d503e66e3987e6135b815b19b3.mesh"]
+
+source_file="res://Models/among-us-astronaut-clay/source/Among Us Guy - Sketchfab.obj"
+dest_files=["res://.godot/imported/Among Us Guy - Sketchfab.obj-d1ae88d503e66e3987e6135b815b19b3.mesh", "res://.godot/imported/Among Us Guy - Sketchfab.obj-d1ae88d503e66e3987e6135b815b19b3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
