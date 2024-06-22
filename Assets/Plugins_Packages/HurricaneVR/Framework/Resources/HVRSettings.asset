@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b3a39c3d29bcbf45b97a504fc1dedbe, type: 3}
   m_Name: HVRSettings
   m_EditorClassIdentifier: 
-  LocalEditorRootDirectory: Assets\Plugins_Packages\HurricaneVR\Framework\Editor\
-  LocalRootDirectory: Assets\Plugins_Packages\HurricaneVR\Framework\
-  LocalResourcesDirectory: Assets\Plugins_Packages\HurricaneVR\Framework\Resources\
-  LocalRuntimePosesDirectory: Assets\Plugins_Packages\HurricaneVR\Framework\Resources\RuntimePoses\
+  LocalEditorRootDirectory: Assets\HurricaneVR\Framework\Editor\
+  LocalRootDirectory: Assets\HurricaneVR\Framework\
+  LocalResourcesDirectory: Assets\HurricaneVR\Framework\Resources\
+  LocalRuntimePosesDirectory: Assets\HurricaneVR\Framework\Resources\RuntimePoses\
   LocalPosesDirectory: 
   AutoApplyGrabbableLayer: 1
   DefaultSocketableTags: {fileID: 0}
-  LeftHand: {fileID: 0}
-  RightHand: {fileID: 0}
+  LeftHand: {fileID: 5601208912438448705, guid: 73768f4627414fe489316ee47d70df3e,
+    type: 3}
+  RightHand: {fileID: 2018449469979688964, guid: 9475f13191340d848a35056ce309f076,
+    type: 3}
   InverseKinematics: 0
   IKHandMirroring: 1
   FullBody: {fileID: 0}
@@ -40,8 +42,9 @@ MonoBehaviour:
   UseAttachedRigidBody: 0
   ComponentInParentFallback: 0
   LineGrabTriggerLoose: 0
-  DefaultJointSettings: {fileID: 0}
-  LineGrabSettings: {fileID: 0}
+  DefaultJointSettings: {fileID: 11400000, guid: d420bd8890e2c264eb9ec97c4963f6ce,
+    type: 2}
+  LineGrabSettings: {fileID: 11400000, guid: 203d545f2b6cc724aa3a0d6e4fafd082, type: 2}
   VerboseGrabbableEvents: 0
   VerboseHandGrabberEvents: 0
   DisableHaptics: 0

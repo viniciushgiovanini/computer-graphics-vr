@@ -4,17 +4,30 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - projectile
+  - pontaProvaNegativa
+  - pontaProvaPositiva
+  - epi
+  - TabletPages
+  - tabletEpiContainer
+  - RoomLight
+  - FxTemporaire
+  - SamplesInfoPanel
   - HandFinger
+  - GhostTrigger
+  - Ground
+  - Moitao
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - IgnoreSRb
   - Water
   - UI
-  - =
-  - 
+  - Aterrador
+  - VFX
   - Player
+  - DynamicPose
   - 
   - 
   - 
@@ -25,13 +38,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Grabbable
   - Hand
   - 
   - 
   - 
-  - 
+  - Talabarte
   - 
   - 
   - 
