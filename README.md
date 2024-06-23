@@ -17,7 +17,7 @@
 
 - O link para documentação do projeto pode ser encontrado no link abaixo, contendo um slide e um artigo para instruções e maiores detalhamentos.  
 
-[Artigo de Instruções](https://github.com/viniciushgiovanini/computer-graphics-vr/blob/master/docs/Documentacao%20-%20Server%20Room%20VR.pdf)
+[Artigo de Instruções](https://github.com/viniciushgiovanini/computer-graphics-vr/blob/master/docs/Documentacao%20-%20Server%20Room%20VR.pdf)  
 [Slides](https://github.com/viniciushgiovanini/computer-graphics-vr/blob/master/docs/Slide%20-%20Server%20Room%20VR.pdf)
 
 
