@@ -2,21 +2,24 @@
 
 ## Execução pela Unity
 
-1. Ter a unity versão 2022.2.6f1
-2. Com o Quest 2 ou 3, baixar e instalar o sofware **Meta Quest Link** e fazer o **Quest Link** com o PC.
-3. Com o Quest conectado basta executar o programa.
+1. Ter a unity versão 2022.2.6f1  
+2. Com o Quest 2 ou 3, baixar e instalar o sofware **Meta Quest Link** e fazer o **Quest Link** com o PC.  
+3. Com o Quest conectado basta executar o programa.  
 
 ## Download da Build
 
-- Para baixar o executavel do projeto basta clicar no link abaixo.
+- Para baixar o executavel do projeto basta clicar no link abaixo.  
+- Descompacte o arquivo **build-server-room.zip**  
 
-[Download Build]()
+[Download Build](https://github.com/viniciushgiovanini/computer-graphics-vr/releases/download/v0.1/build-server-room.zip)
 
 ## Documentação do Projeto
 
-- O link para documentação do projeto pode ser encontrado no link abaixo, contendo um slide e um artigo para instruções e maiores detalhamentos.
+- O link para documentação do projeto pode ser encontrado no link abaixo, contendo um slide e um artigo para instruções e maiores detalhamentos.  
 
-[Documentos]()
+[Artigo de Instruções](https://github.com/viniciushgiovanini/computer-graphics-vr/blob/master/docs/Documentacao%20-%20Server%20Room%20VR.pdf)
+[Slides](https://github.com/viniciushgiovanini/computer-graphics-vr/blob/master/docs/Slide%20-%20Server%20Room%20VR.pdf)
+
 
 ## Linguagens de Desenvolvimento
 
